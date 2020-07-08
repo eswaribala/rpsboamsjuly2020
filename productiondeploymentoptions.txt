@@ -1,0 +1,28 @@
+api ---> production deployment
+1.JVM not large scale , 3 instances, not linux env, no vm
+
+2. JVM/Non JVM, cluster 10 instances, no autoscaling
+should run in server 
+
+3.JVM/Non JVM, cluster 100 to 1000 instances, autoscaling
+should run in on premises server / cloud env  
+
+1.spring cloud
+
+
+2.docker
+
+
+3.kubernetes
+
+Docker desktop, kubernetes
+docker tool box minikube
+AWS Kubernetes
+AZUre Kuber
+PCF kubernetes (jar--> create image)
+Openshift Kubernetes
+
+
+
+
+
