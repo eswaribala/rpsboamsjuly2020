@@ -1,0 +1,33 @@
+Regular
+zuul 8765
+API Gateway-->JWTSecurity--> CUSTOMER-SERVICE
+
+Fall Back
+
+zuul Gateway 8766
+
+Fallback
+PCF
+https://customer-app.cfapps.io/browser/index.html#/
+
+
+Steps
+1.Vault server
+2.Rabbitmq
+3.Eureka
+4.Config server
+5.Customer service
+6.JWT Security
+7.API Gateway
+8.Ensure PCF working
+9.Hystrix
+10.Test http://localhost:9091/cbcustoemrs
+
+POST
+
+{
+  "userName":"admin",
+  "userPwd":"admin"
+}
+
+
